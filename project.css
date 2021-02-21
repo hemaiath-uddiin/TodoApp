@@ -1,0 +1,152 @@
+   *{ 
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+} 
+
+
+
+
+ 
+
+   
+
+
+
+ form{ 
+
+     justify-content: center;
+     display: flex;
+     margin-top:20px;
+    } 
+
+
+ input.todoInput {
+    padding: 2px;
+}
+
+.todoContainer {
+    display: flex;
+    justify-content: center;
+}  
+.todoList { 
+  list-style: none;
+  min-width: 30%;
+;
+}
+.todo { 
+  margin:10px;
+   background: rgb(0, 255, 55);
+   color: white; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    font-size: 1.5rem;
+   transition:all 0.5s ease;
+}
+ .todo li { 
+
+    flex: 1;
+ }
+
+ .trash-btn,.complete-btn { 
+
+
+    background:rgb(0, 255, 0); 
+    color:rgb(226, 29, 29); 
+    border:none; 
+    padding:1rem; 
+    font-size: 1rem;
+}   
+.trash-btn:hover { 
+
+    background:black
+}
+
+.complete-btn{ 
+
+    background:rgb(6, 9, 219);
+} 
+.todo-item{ 
+    padding: 0rem 0.5rem;}
+.fa-trash,.fa-check { 
+
+        pointer-events: none;}
+  
+
+   .fal{ 
+     opacity: 0;
+    transform: translateY(8rem)rotateZ(20deg);
+   } 
+   .complete{ 
+      text-decoration: line-through;
+      
+      
+
+   }
+   input.todoInput {
+    padding: 9px;
+    outline: none;
+}
+
+   form {
+    background: #c58aff;
+    padding: 23px;
+}
+button.todoButton {
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/*
+ul.todoList {
+    list-style: none;
+    min-width: 30%;
+} 
+.todo{ 
+   margin: 0.5rem;
+    background:orange; 
+    color:white;
+     font-size: 1.5rem; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    } 
+    .todo li { 
+
+        flex:1;
+    } 
+    .trash-btn,.complete-btn { 
+
+
+        background:red; 
+        color: white; 
+        border:none; 
+        padding:1rem; 
+        font-size: 1rem;
+    } .complete-btn { 
+
+        background:green
+    } 
+    .todo-item{ 
+     padding: 0rem 0.5rem;
+
+    } 
+    .fa-trash,.fa-check { 
+
+      pointer-events: none;
+
+    }*/ 
+
+.dlt{ 
+
+
+    background:red;
+    
+     margin:20px; 
+
+}
